@@ -1,0 +1,14 @@
+../mbed-os/targets/TARGET_STM/gpio_object.h:58:20:void gpio_write(gpio_t*, int)	8	static
+../mbed-os/targets/TARGET_STM/gpio_object.h:81:19:int gpio_read(gpio_t*)	8	static
+../mbed-os/drivers/DigitalIn.h:61:5:mbed::DigitalIn::DigitalIn(PinName)	16	static
+../mbed-os/drivers/DigitalOut.h:56:5:mbed::DigitalOut::DigitalOut(PinName)	16	static
+../mbed-os/drivers/DigitalOut.h:78:10:void mbed::DigitalOut::write(int)	16	static
+../mbed-os/drivers/DigitalOut.h:90:9:int mbed::DigitalOut::read()	16	static
+../mbed-os/drivers/DigitalOut.h:116:17:mbed::DigitalOut& mbed::DigitalOut::operator=(int)	16	static
+../mbed-os/drivers/DigitalOut.h:137:5:mbed::DigitalOut::operator int()	16	static
+../modules/siren/siren.cpp:30:6:void sirenInit()	8	static
+../modules/siren/siren.cpp:46:6:bool sirenStateRead()	0	static
+../modules/siren/siren.cpp:51:6:void sirenStateWrite(bool)	8	static
+../modules/siren/siren.cpp:56:6:void sirenUpdate(int)	16	static
+../modules/siren/siren.cpp:69:1:void __static_initialization_and_destruction_0(int, int)	16	static
+../modules/siren/siren.cpp:69:1:cpp)	8	static

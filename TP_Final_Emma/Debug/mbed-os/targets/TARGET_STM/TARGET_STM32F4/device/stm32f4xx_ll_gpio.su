@@ -1,0 +1,3 @@
+../mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_ll_gpio.c:120:13:LL_GPIO_DeInit	0	static
+../mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_ll_gpio.c:216:13:LL_GPIO_Init	32	static,ignoring_inline_asm
+../mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_ll_gpio.c:292:6:LL_GPIO_StructInit	0	static

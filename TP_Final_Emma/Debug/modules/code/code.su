@@ -1,0 +1,4 @@
+../modules/code/code.cpp:38:6:void codeWrite(char*)	16	static
+../modules/code/code.cpp:46:6:bool codeMatchFrom(codeOrigin_t)	24	static
+../modules/code/code.cpp:92:13:bool codeMatch(char*)	16	static
+../modules/code/code.cpp:103:13:void codeDeactivate()	8	static

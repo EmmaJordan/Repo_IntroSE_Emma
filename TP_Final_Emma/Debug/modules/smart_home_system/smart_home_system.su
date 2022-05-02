@@ -1,0 +1,5 @@
+../mbed-os/drivers/DigitalOut.h:56:5:mbed::DigitalOut::DigitalOut(PinName)	16	static
+../modules/smart_home_system/smart_home_system.cpp:43:6:void smartHomeSystemInit()	8	static
+../modules/smart_home_system/smart_home_system.cpp:64:6:void smartHomeSystemUpdate()	8	static
+../modules/smart_home_system/smart_home_system.cpp:106:1:void __static_initialization_and_destruction_0(int, int)	16	static
+../modules/smart_home_system/smart_home_system.cpp:106:1:cpp)	8	static

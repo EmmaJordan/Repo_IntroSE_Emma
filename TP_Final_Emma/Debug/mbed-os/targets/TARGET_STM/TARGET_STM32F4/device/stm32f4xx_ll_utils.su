@@ -1,0 +1,7 @@
+../mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_ll_utils.c:488:20:UTILS_SetFlashLatency.part.0	0	static
+../mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_ll_utils.c:681:20:UTILS_EnablePLLAndSwitchSystem	24	static
+../mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_ll_utils.c:270:6:LL_Init1msTick	0	static
+../mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_ll_utils.c:286:6:LL_mDelay	8	static
+../mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_ll_utils.c:336:6:LL_SetSystemCoreClock	0	static
+../mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_ll_utils.c:358:13:LL_PLL_ConfigSystemClock_HSI	20	static
+../mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_ll_utils.c:415:13:LL_PLL_ConfigSystemClock_HSE	24	static

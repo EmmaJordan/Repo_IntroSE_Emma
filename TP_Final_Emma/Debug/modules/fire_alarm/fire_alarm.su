@@ -1,0 +1,10 @@
+../mbed-os/drivers/DigitalIn.h:61:5:mbed::DigitalIn::DigitalIn(PinName)	16	static
+../modules/fire_alarm/fire_alarm.cpp:41:6:void fireAlarmInit()	8	static
+../modules/fire_alarm/fire_alarm.cpp:50:6:void fireAlarmUpdate()	0	static
+../modules/fire_alarm/fire_alarm.cpp:75:6:bool gasDetectorStateRead()	0	static
+../modules/fire_alarm/fire_alarm.cpp:80:6:bool overTemperatureDetectorStateRead()	0	static
+../modules/fire_alarm/fire_alarm.cpp:85:6:bool gasDetectedRead()	0	static
+../modules/fire_alarm/fire_alarm.cpp:90:6:bool overTemperatureDetectedRead()	0	static
+../modules/fire_alarm/fire_alarm.cpp:95:6:void fireAlarmDeactivate()	0	static
+../modules/fire_alarm/fire_alarm.cpp:99:1:void __static_initialization_and_destruction_0(int, int)	16	static
+../modules/fire_alarm/fire_alarm.cpp:99:1:cpp)	8	static

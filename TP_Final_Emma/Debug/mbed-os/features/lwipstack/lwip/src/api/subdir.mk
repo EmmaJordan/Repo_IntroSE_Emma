@@ -1,0 +1,51 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+# Toolchain: GNU Tools for STM32 (10.3-2021.10)
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../mbed-os/features/lwipstack/lwip/src/api/lwip_api_lib.c \
+../mbed-os/features/lwipstack/lwip/src/api/lwip_api_msg.c \
+../mbed-os/features/lwipstack/lwip/src/api/lwip_err.c \
+../mbed-os/features/lwipstack/lwip/src/api/lwip_if_api.c \
+../mbed-os/features/lwipstack/lwip/src/api/lwip_netbuf.c \
+../mbed-os/features/lwipstack/lwip/src/api/lwip_netdb.c \
+../mbed-os/features/lwipstack/lwip/src/api/lwip_netifapi.c \
+../mbed-os/features/lwipstack/lwip/src/api/lwip_sockets.c \
+../mbed-os/features/lwipstack/lwip/src/api/lwip_tcpip.c 
+
+C_DEPS += \
+./mbed-os/features/lwipstack/lwip/src/api/lwip_api_lib.d \
+./mbed-os/features/lwipstack/lwip/src/api/lwip_api_msg.d \
+./mbed-os/features/lwipstack/lwip/src/api/lwip_err.d \
+./mbed-os/features/lwipstack/lwip/src/api/lwip_if_api.d \
+./mbed-os/features/lwipstack/lwip/src/api/lwip_netbuf.d \
+./mbed-os/features/lwipstack/lwip/src/api/lwip_netdb.d \
+./mbed-os/features/lwipstack/lwip/src/api/lwip_netifapi.d \
+./mbed-os/features/lwipstack/lwip/src/api/lwip_sockets.d \
+./mbed-os/features/lwipstack/lwip/src/api/lwip_tcpip.d 
+
+OBJS += \
+./mbed-os/features/lwipstack/lwip/src/api/lwip_api_lib.o \
+./mbed-os/features/lwipstack/lwip/src/api/lwip_api_msg.o \
+./mbed-os/features/lwipstack/lwip/src/api/lwip_err.o \
+./mbed-os/features/lwipstack/lwip/src/api/lwip_if_api.o \
+./mbed-os/features/lwipstack/lwip/src/api/lwip_netbuf.o \
+./mbed-os/features/lwipstack/lwip/src/api/lwip_netdb.o \
+./mbed-os/features/lwipstack/lwip/src/api/lwip_netifapi.o \
+./mbed-os/features/lwipstack/lwip/src/api/lwip_sockets.o \
+./mbed-os/features/lwipstack/lwip/src/api/lwip_tcpip.o 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+mbed-os/features/lwipstack/lwip/src/api/%.o mbed-os/features/lwipstack/lwip/src/api/%.su: ../mbed-os/features/lwipstack/lwip/src/api/%.c mbed-os/features/lwipstack/lwip/src/api/subdir.mk
+	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=c99 -g3 -DUSB_STM_HAL -DDEVICE_CAN=1 -DDEVICE_SERIAL_FC=1 -DARM_MATH_CM4 -DCOMPONENT_FLASHIAP=1 -DDEVICE_SPI_ASYNCH=1 -DTARGET_STM32F429xI -DTARGET_STM -DCOMPONENT_NSPE=1 -DTOOLCHAIN_GCC_ARM -DDEVICE_EMAC=1 -DDEVICE_SERIAL=1 -DDEVICE_SPISLAVE=1 -D__CMSIS_RTOS -DTARGET_RTOS_M4_M7 -DDEVICE_INTERRUPTIN=1 -DTARGET_FAMILY_STM32 -DUSE_HAL_DRIVER -DDEVICE_USBDEVICE=1 -DDEVICE_I2C=1 -DTOOLCHAIN_GCC -DTARGET_LIKE_MBED '-DMBED_BUILD_TIMESTAMP=1651527933.3610954' -DTARGET_STM32F4 -D__MBED__=1 -DDEVICE_PORTIN=1 -DTARGET_CORTEX -DTARGET_PSA -DTRANSACTION_QUEUE_SIZE_SPI=2 -DDEVICE_SLEEP=1 -DDEVICE_LPTICKER=1 -DDEVICE_ANALOGIN=1 -DDEVICE_STDIO_MESSAGES=1 -DDEVICE_TRNG=1 -DDEVICE_RESET_REASON=1 -DDEVICE_MPU=1 -DDEVICE_SERIAL_ASYNCH=1 -DUSBHOST_OTHER -DTARGET_M4 -DDEVICE_RTC=1 -DDEVICE_ANALOGOUT=1 -DUSE_FULL_LL_DRIVER -D__CORTEX_M4 -DTARGET_NUCLEO_F429ZI -DTARGET_RELEASE -DTARGET_STM32F429xx -D__FPU_PRESENT=1 -DTARGET_CORTEX_M -DDEVICE_FLASH=1 -DDEVICE_USTICKER=1 -DDEVICE_WATCHDOG=1 -DCOMPONENT_PSA_SRV_IMPL=1 -DDEVICE_PWMOUT=1 -DTARGET_NAME=NUCLEO_F429ZI -DCOMPONENT_PSA_SRV_EMUL=1 -DDEVICE_I2C_ASYNCH=1 -DTARGET_LIKE_CORTEX_M4 -DDEVICE_PORTINOUT=1 -DDEVICE_PORTOUT=1 -DDEVICE_SPI=1 -DTARGET_STM32F429 -DTARGET_STM32F429ZI -DTARGET_FF_ARDUINO -DDEVICE_I2CSLAVE=1 -D__MBED_CMSIS_RTOS_CM -DMBED_DEBUG -DMBED_TRAP_ERRORS_ENABLED=1 -DMBED_DEBUG -DMBED_TRAP_ERRORS_ENABLED=1 -DNDEBUG -DNDEBUG -c -includeC:/Users/Win10/Desktop/Repo_IntroSE_Jordan/TP_Final_Emma/mbed_config.h -O2 -ffunction-sections -fdata-sections -Wall -Wextra -funsigned-char -fomit-frame-pointer -c -g3  -Wno-unused-parameter -Wno-missing-field-initializers -fstack-usage -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=softfp -mthumb -o "$@" @"mbed-os/features/lwipstack/lwip/src/api/lwip_api_lib.c_includes.args"
+
+clean: clean-mbed-2d-os-2f-features-2f-lwipstack-2f-lwip-2f-src-2f-api
+
+clean-mbed-2d-os-2f-features-2f-lwipstack-2f-lwip-2f-src-2f-api:
+	-$(RM) ./mbed-os/features/lwipstack/lwip/src/api/lwip_api_lib.d ./mbed-os/features/lwipstack/lwip/src/api/lwip_api_lib.o ./mbed-os/features/lwipstack/lwip/src/api/lwip_api_lib.su ./mbed-os/features/lwipstack/lwip/src/api/lwip_api_msg.d ./mbed-os/features/lwipstack/lwip/src/api/lwip_api_msg.o ./mbed-os/features/lwipstack/lwip/src/api/lwip_api_msg.su ./mbed-os/features/lwipstack/lwip/src/api/lwip_err.d ./mbed-os/features/lwipstack/lwip/src/api/lwip_err.o ./mbed-os/features/lwipstack/lwip/src/api/lwip_err.su ./mbed-os/features/lwipstack/lwip/src/api/lwip_if_api.d ./mbed-os/features/lwipstack/lwip/src/api/lwip_if_api.o ./mbed-os/features/lwipstack/lwip/src/api/lwip_if_api.su ./mbed-os/features/lwipstack/lwip/src/api/lwip_netbuf.d ./mbed-os/features/lwipstack/lwip/src/api/lwip_netbuf.o ./mbed-os/features/lwipstack/lwip/src/api/lwip_netbuf.su ./mbed-os/features/lwipstack/lwip/src/api/lwip_netdb.d ./mbed-os/features/lwipstack/lwip/src/api/lwip_netdb.o ./mbed-os/features/lwipstack/lwip/src/api/lwip_netdb.su ./mbed-os/features/lwipstack/lwip/src/api/lwip_netifapi.d ./mbed-os/features/lwipstack/lwip/src/api/lwip_netifapi.o ./mbed-os/features/lwipstack/lwip/src/api/lwip_netifapi.su ./mbed-os/features/lwipstack/lwip/src/api/lwip_sockets.d ./mbed-os/features/lwipstack/lwip/src/api/lwip_sockets.o ./mbed-os/features/lwipstack/lwip/src/api/lwip_sockets.su ./mbed-os/features/lwipstack/lwip/src/api/lwip_tcpip.d ./mbed-os/features/lwipstack/lwip/src/api/lwip_tcpip.o ./mbed-os/features/lwipstack/lwip/src/api/lwip_tcpip.su
+
+.PHONY: clean-mbed-2d-os-2f-features-2f-lwipstack-2f-lwip-2f-src-2f-api
+

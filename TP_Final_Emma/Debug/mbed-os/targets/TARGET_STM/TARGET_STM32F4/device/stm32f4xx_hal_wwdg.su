@@ -1,0 +1,5 @@
+../mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_wwdg.c:203:13:HAL_WWDG_MspInit	0	static
+../mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_wwdg.c:166:19:HAL_WWDG_Init	16	static
+../mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_wwdg.c:239:19:HAL_WWDG_Refresh	0	static
+../mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_wwdg.c:285:13:HAL_WWDG_EarlyWakeupCallback	0	static
+../mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_wwdg.c:262:6:HAL_WWDG_IRQHandler	8	static

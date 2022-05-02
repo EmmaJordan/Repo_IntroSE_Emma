@@ -1,0 +1,2 @@
+../modules/date_and_time/date_and_time.cpp:23:7:char* dateAndTimeRead()	16	static
+../modules/date_and_time/date_and_time.cpp:30:6:void dateAndTimeWrite(int, int, int, int, int, int)	64	static

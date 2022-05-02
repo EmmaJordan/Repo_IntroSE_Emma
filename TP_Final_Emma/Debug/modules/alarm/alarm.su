@@ -1,0 +1,5 @@
+../modules/alarm/alarm.cpp:39:6:void alarmInit()	8	static
+../modules/alarm/alarm.cpp:46:6:void alarmUpdate()	8	static
+../modules/alarm/alarm.cpp:68:6:bool alarmStateRead()	0	static
+../modules/alarm/alarm.cpp:75:13:void alarmDeactivate()	8	static
+../modules/alarm/alarm.cpp:84:12:int alarmStrobeTime()	8	static

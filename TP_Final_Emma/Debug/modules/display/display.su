@@ -1,0 +1,23 @@
+../mbed-os/targets/TARGET_STM/gpio_object.h:58:20:void gpio_write(gpio_t*, int)	8	static
+../mbed-os/drivers/DigitalOut.h:56:5:mbed::DigitalOut::DigitalOut(PinName)	16	static
+../mbed-os/drivers/DigitalOut.h:78:10:void mbed::DigitalOut::write(int)	16	static
+../mbed-os/drivers/DigitalOut.h:116:17:mbed::DigitalOut& mbed::DigitalOut::operator=(int)	16	static
+../mbed-os/drivers/I2C.h:180:13:mbed::I2C::~I2C()	16	static
+../mbed-os/drivers/I2C.h:180:13:virtual mbed::I2C::~I2C()	16	static
+../modules/display/display.cpp:122:6:void displayLCDi2cInit(displayConnection_t)	16	static
+../modules/display/display.cpp:205:6:void displayCharPositionWrite(uint8_t, uint8_t)	16	static
+../modules/display/display.cpp:242:6:void displayStringWrite(const char*)	16	static
+../modules/display/display.cpp:251:13:void displayCodeWrite(bool, uint8_t)	16	static
+../modules/display/display.cpp:261:13:void displayPinWrite(uint8_t, int)	24	static
+../modules/display/display.cpp:333:13:void displayDataBusWrite(uint8_t)	16	static
+../modules/display/display.cpp:369:13:void transformaLinea(uint16_t)	8	static
+../modules/display/display.cpp:383:13:void transformakV(uint16_t)	8	static
+../modules/display/display.cpp:397:13:void transformaTiempo(uint16_t)	8	static
+../modules/display/display.cpp:413:6:void displayInit()	8	static
+../modules/display/display.cpp:435:6:void displayUpdate(uint16_t, uint16_t, uint16_t)	16	static
+../modules/display/display.cpp:458:6:void displayDisparo()	8	static
+../mbed-os/platform/Callback.h:282:5:)>::~Callback() [with R = void; ArgTs = {int}]	16	static
+../mbed-os/platform/CThunk.h:60:5:CThunk<T>::~CThunk() [with T = mbed::I2C]	16	static
+../modules/display/display.cpp:471:1:void __static_initialization_and_destruction_0(int, int)	16	static
+../modules/display/display.cpp:471:1:cpp)	8	static
+../modules/display/display.cpp:471:1:cpp)	8	static

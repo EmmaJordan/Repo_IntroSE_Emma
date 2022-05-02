@@ -1,0 +1,5 @@
+../modules/intruder_alarm/intruder_alarm.cpp:28:6:void intruderAlarmInit()	8	static
+../modules/intruder_alarm/intruder_alarm.cpp:33:6:void intruderAlarmUpdate()	8	static
+../modules/intruder_alarm/intruder_alarm.cpp:42:6:bool intruderDetectorStateRead()	0	static
+../modules/intruder_alarm/intruder_alarm.cpp:47:6:bool intruderDetectedRead()	0	static
+../modules/intruder_alarm/intruder_alarm.cpp:52:6:void intruderAlarmDeactivate()	0	static

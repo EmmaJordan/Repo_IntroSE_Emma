@@ -1,0 +1,9 @@
+../mbed-os/targets/TARGET_STM/gpio_object.h:81:19:int gpio_read(gpio_t*)	8	static
+../mbed-os/drivers/DigitalIn.h:61:5:mbed::DigitalIn::DigitalIn(PinName)	16	static
+../mbed-os/drivers/DigitalIn.h:84:9:int mbed::DigitalIn::read()	16	static
+../mbed-os/drivers/DigitalIn.h:116:5:mbed::DigitalIn::operator int()	16	static
+../modules/gas_sensor/gas_sensor.cpp:25:6:void gasSensorInit()	0	static
+../modules/gas_sensor/gas_sensor.cpp:30:6:void gasSensorUpdate()	0	static
+../modules/gas_sensor/gas_sensor.cpp:35:6:bool gasSensorRead()	8	static
+../modules/gas_sensor/gas_sensor.cpp:38:1:void __static_initialization_and_destruction_0(int, int)	16	static
+../modules/gas_sensor/gas_sensor.cpp:38:1:cpp)	8	static

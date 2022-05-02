@@ -1,0 +1,17 @@
+../mbed-os/targets/TARGET_STM/gpio_object.h:58:20:void gpio_write(gpio_t*, int)	8	static
+../mbed-os/targets/TARGET_STM/gpio_object.h:81:19:int gpio_read(gpio_t*)	8	static
+../mbed-os/drivers/DigitalIn.h:61:5:mbed::DigitalIn::DigitalIn(PinName)	16	static
+../mbed-os/drivers/DigitalIn.h:84:9:int mbed::DigitalIn::read()	16	static
+../mbed-os/drivers/DigitalIn.h:116:5:mbed::DigitalIn::operator int()	16	static
+../mbed-os/drivers/DigitalOut.h:56:5:mbed::DigitalOut::DigitalOut(PinName)	16	static
+../mbed-os/drivers/DigitalOut.h:78:10:void mbed::DigitalOut::write(int)	16	static
+../mbed-os/drivers/DigitalOut.h:116:17:mbed::DigitalOut& mbed::DigitalOut::operator=(int)	16	static
+../modules/matrix_keypad/matrix_keypad.cpp:54:6:void matrixKeypadInit(int)	16	static
+../modules/matrix_keypad/matrix_keypad.cpp:69:6:char matrixKeypadUpdate()	16	static
+../modules/matrix_keypad/matrix_keypad.cpp:86:5:int miTecladoScan()	16	static
+../modules/matrix_keypad/matrix_keypad.cpp:234:13:void matrixKeypadReset()	0	static
+../mbed-os/drivers/Serial.h:56:7:mbed::Serial::~Serial()	16	static
+../mbed-os/drivers/Serial.h:56:7:virtual mbed::Serial::~Serial()	16	static
+../modules/matrix_keypad/matrix_keypad.cpp:237:1:void __static_initialization_and_destruction_0(int, int)	24	static
+../modules/matrix_keypad/matrix_keypad.cpp:237:1:cpp)	8	static
+../modules/matrix_keypad/matrix_keypad.cpp:237:1:cpp)	8	static

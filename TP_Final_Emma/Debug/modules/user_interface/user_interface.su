@@ -1,0 +1,24 @@
+c:\st\stm32cubeide_1.9.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.0.202111181127\tools\arm-none-eabi\include\c++\10.3.1\new:174:33:void* operator new(std::size_t, void*)	8	static
+../mbed-os/targets/TARGET_STM/gpio_object.h:58:20:void gpio_write(gpio_t*, int)	8	static
+../mbed-os/drivers/DigitalOut.h:56:5:mbed::DigitalOut::DigitalOut(PinName)	16	static
+../mbed-os/drivers/DigitalOut.h:78:10:void mbed::DigitalOut::write(int)	16	static
+../mbed-os/drivers/DigitalOut.h:116:17:mbed::DigitalOut& mbed::DigitalOut::operator=(int)	16	static
+../modules/user_interface/user_interface.cpp:84:6:void userInterfaceInit()	24	static
+../modules/user_interface/user_interface.cpp:102:6:bool userInterfaceUpdate()	8	static
+../modules/user_interface/user_interface.cpp:133:6:bool incorrectCodeStateRead()	0	static
+../modules/user_interface/user_interface.cpp:138:6:void incorrectCodeStateWrite(bool)	8	static
+../modules/user_interface/user_interface.cpp:143:6:bool systemBlockedStateRead()	0	static
+../modules/user_interface/user_interface.cpp:148:6:void systemBlockedStateWrite(bool)	8	static
+../modules/user_interface/user_interface.cpp:153:6:bool userInterfaceCodeCompleteRead()	0	static
+../modules/user_interface/user_interface.cpp:158:6:void userInterfaceCodeCompleteWrite(bool)	8	static
+../modules/user_interface/user_interface.cpp:165:13:void userInterfaceMatrixKeypadUpdate()	16	static
+../modules/user_interface/user_interface.cpp:208:13:void userButton_Callback()	0	static
+../mbed-os/platform/Callback.h:83:5:)) [with R = void; ArgTs = {}]	16	static
+../mbed-os/platform/Callback.h:282:5:)>::~Callback() [with R = void; ArgTs = {}]	16	static
+../mbed-os/platform/Callback.h:635:10:)>::generate(const F&) [with F = void (*)(); R = void; ArgTs = {}]	16	static
+../mbed-os/platform/Callback.h:652:14:) [with F = void (*)(); R = void; ArgTs = {}]	16	static
+../mbed-os/platform/Callback.h:658:17:)>::function_move(void*, const void*) [with F = void (*)(); R = void; ArgTs = {}]	16	static
+../mbed-os/platform/Callback.h:664:17:)>::function_dtor(void*) [with F = void (*)(); R = void; ArgTs = {}]	8	static
+../modules/user_interface/user_interface.cpp:211:1:void __static_initialization_and_destruction_0(int, int)	16	static
+../modules/user_interface/user_interface.cpp:211:1:cpp)	8	static
+../modules/user_interface/user_interface.cpp:211:1:cpp)	8	static

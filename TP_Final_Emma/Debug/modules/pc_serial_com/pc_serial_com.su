@@ -1,0 +1,40 @@
+../mbed-os/targets/TARGET_STM/gpio_object.h:58:20:void gpio_write(gpio_t*, int)	8	static
+../mbed-os/drivers/DigitalOut.h:56:5:mbed::DigitalOut::DigitalOut(PinName)	16	static
+../mbed-os/drivers/DigitalOut.h:78:10:void mbed::DigitalOut::write(int)	16	static
+../mbed-os/drivers/DigitalOut.h:116:17:mbed::DigitalOut& mbed::DigitalOut::operator=(int)	16	static
+../mbed-os/drivers/Serial.h:92:10:bool mbed::Serial::readable()	16	static
+../modules/pc_serial_com/pc_serial_com.cpp:75:6:void pcSerialComInit()	8	static
+../modules/pc_serial_com/pc_serial_com.cpp:90:6:char pcSerialComCharRead()	16	static
+../modules/pc_serial_com/pc_serial_com.cpp:99:6:void pcSerialComStringWrite(const char*)	16	static
+../modules/pc_serial_com/pc_serial_com.cpp:104:6:void uartUpdate(uint16_t, uint16_t, uint16_t)	16	static
+../modules/pc_serial_com/pc_serial_com.cpp:112:6:void uartDisparo()	8	static
+../modules/pc_serial_com/pc_serial_com.cpp:118:6:void pcSerialComUpdate()	16	static
+../modules/pc_serial_com/pc_serial_com.cpp:143:6:bool pcSerialComCodeCompleteRead()	0	static
+../modules/pc_serial_com/pc_serial_com.cpp:148:6:void pcSerialComCodeCompleteWrite(bool)	8	static
+../modules/pc_serial_com/pc_serial_com.cpp:155:13:void pcSerialComGetCodeUpdate(char)	16	static
+../modules/pc_serial_com/pc_serial_com.cpp:167:13:void pcSerialComSaveNewCodeUpdate(char)	16	static
+../modules/pc_serial_com/pc_serial_com.cpp:182:13:void pcSerialComCommandUpdate(char)	16	static
+../modules/pc_serial_com/pc_serial_com.cpp:227:13:void availableCommands()	16	static
+../modules/pc_serial_com/pc_serial_com.cpp:233:13:void commandShowCurrentAlarmState()	8	static
+../modules/pc_serial_com/pc_serial_com.cpp:242:13:void commandShowCurrentGasDetectorState()	8	static
+../modules/pc_serial_com/pc_serial_com.cpp:251:13:void commandShowCurrentOverTemperatureDetectorState()	8	static
+../modules/pc_serial_com/pc_serial_com.cpp:260:13:void commandEnterCodeSequence()	8	static
+../modules/pc_serial_com/pc_serial_com.cpp:273:13:void commandEnterNewCode()	8	static
+../modules/pc_serial_com/pc_serial_com.cpp:282:13:void commandShowCurrentTemperatureInCelsius()	8	static
+../modules/pc_serial_com/pc_serial_com.cpp:288:13:void commandShowCurrentTemperatureInFahrenheit()	8	static
+../modules/pc_serial_com/pc_serial_com.cpp:294:13:void commandSetDateAndTime()	48	static
+../modules/pc_serial_com/pc_serial_com.cpp:336:13:void commandShowDateAndTime()	8	static
+../modules/pc_serial_com/pc_serial_com.cpp:341:13:void commandShowStoredEvents()	88	static
+../modules/pc_serial_com/pc_serial_com.cpp:350:13:void commandShowCurrentMotorState()	8	static
+../modules/pc_serial_com/pc_serial_com.cpp:360:13:void commandShowCurrentGateState()	8	static
+../modules/pc_serial_com/pc_serial_com.cpp:370:13:void commandMotionSensorActivate()	8	static
+../modules/pc_serial_com/pc_serial_com.cpp:375:13:void commandMotionSensorDeactivate()	8	static
+../modules/pc_serial_com/pc_serial_com.cpp:380:10:uint16_t getkV()	0	static
+../modules/pc_serial_com/pc_serial_com.cpp:385:10:uint16_t getTiempo()	0	static
+../modules/pc_serial_com/pc_serial_com.cpp:390:6:void setkV(bool)	16	static
+../modules/pc_serial_com/pc_serial_com.cpp:402:6:void setTiempo(bool)	16	static
+../mbed-os/drivers/Serial.h:56:7:mbed::Serial::~Serial()	16	static
+../mbed-os/drivers/Serial.h:56:7:virtual mbed::Serial::~Serial()	16	static
+../modules/pc_serial_com/pc_serial_com.cpp:413:1:void __static_initialization_and_destruction_0(int, int)	24	static
+../modules/pc_serial_com/pc_serial_com.cpp:413:1:cpp)	8	static
+../modules/pc_serial_com/pc_serial_com.cpp:413:1:cpp)	8	static

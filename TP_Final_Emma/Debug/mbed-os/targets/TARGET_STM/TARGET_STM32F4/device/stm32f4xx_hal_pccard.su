@@ -1,0 +1,14 @@
+../mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_pccard.c:211:13:HAL_PCCARD_MspInit	0	static
+../mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_pccard.c:141:19:HAL_PCCARD_Init	24	static
+../mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_pccard.c:226:13:HAL_PCCARD_MspDeInit	0	static
+../mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_pccard.c:188:20:HAL_PCCARD_DeInit	8	static
+../mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_pccard.c:262:19:HAL_PCCARD_Read_ID	4	static
+../mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_pccard.c:325:19:HAL_PCCARD_Read_Sector	8	static
+../mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_pccard.c:401:19:HAL_PCCARD_Write_Sector	8	static
+../mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_pccard.c:474:20:HAL_PCCARD_Erase_Sector	4	static
+../mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_pccard.c:531:19:HAL_PCCARD_Reset	4	static
+../mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_pccard.c:618:13:HAL_PCCARD_ITCallback	0	static
+../mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_pccard.c:569:6:HAL_PCCARD_IRQHandler	8	static
+../mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_pccard.c:652:25:HAL_PCCARD_GetState	0	static
+../mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_pccard.c:666:26:HAL_PCCARD_GetStatus	0	static
+../mbed-os/targets/TARGET_STM/TARGET_STM32F4/device/stm32f4xx_hal_pccard.c:702:26:HAL_PCCARD_ReadStatus	0	static

@@ -1,0 +1,14 @@
+../mbed-os/drivers/I2C.h:180:13:mbed::I2C::~I2C()	16	static
+../mbed-os/drivers/I2C.h:180:13:virtual mbed::I2C::~I2C()	16	static
+../modules/display/pcf8574_i2c_io_expander.cpp:35:6:void pcf8574tInit(bool, bool, bool)	24	static
+../modules/display/pcf8574_i2c_io_expander.cpp:47:6:void pcf8574tGpioPortInit(uint8_t)	32	static
+../modules/display/pcf8574_i2c_io_expander.cpp:55:6:void pcf8574tGpioPortWrite(uint8_t)	32	static
+../modules/display/pcf8574_i2c_io_expander.cpp:64:9:uint8_t pcf8574tGpioPortRead()	24	static
+../modules/display/pcf8574_i2c_io_expander.cpp:72:6:void pcf8574tGpioInit(uint8_t, pcf8574t_gpioDirection_t)	24	static
+../modules/display/pcf8574_i2c_io_expander.cpp:83:6:bool pcf8574tGpioRead(uint8_t)	16	static
+../modules/display/pcf8574_i2c_io_expander.cpp:88:6:void pcf8574tGpioWrite(uint8_t, bool)	24	static
+../mbed-os/platform/Callback.h:282:5:)>::~Callback() [with R = void; ArgTs = {int}]	16	static
+../mbed-os/platform/CThunk.h:60:5:CThunk<T>::~CThunk() [with T = mbed::I2C]	16	static
+../modules/display/pcf8574_i2c_io_expander.cpp:97:1:void __static_initialization_and_destruction_0(int, int)	16	static
+../modules/display/pcf8574_i2c_io_expander.cpp:97:1:cpp)	8	static
+../modules/display/pcf8574_i2c_io_expander.cpp:97:1:cpp)	8	static

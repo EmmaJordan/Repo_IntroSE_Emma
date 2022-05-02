@@ -1,0 +1,10 @@
+../mbed-os/targets/TARGET_STM/gpio_object.h:58:20:void gpio_write(gpio_t*, int)	8	static
+../mbed-os/drivers/DigitalInOut.h:42:5:mbed::DigitalInOut::DigitalInOut(PinName)	16	static
+../mbed-os/drivers/DigitalInOut.h:66:10:void mbed::DigitalInOut::write(int)	16	static
+../mbed-os/drivers/DigitalInOut.h:120:19:mbed::DigitalInOut& mbed::DigitalInOut::operator=(int)	16	static
+../modules/motor/motor.cpp:32:6:void motorControlInit()	8	static
+../modules/motor/motor.cpp:44:18:MotorDirection_t motorDirectionRead()	0	static
+../modules/motor/motor.cpp:49:6:void motorDirectionWrite(MotorDirection_t)	8	static
+../modules/motor/motor.cpp:54:6:void motorControlUpdate()	8	static
+../modules/motor/motor.cpp:101:1:void __static_initialization_and_destruction_0(int, int)	16	static
+../modules/motor/motor.cpp:101:1:cpp)	8	static
